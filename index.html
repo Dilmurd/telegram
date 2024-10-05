@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-app">
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="back-button">&#8592;</div>
+                <div class="chat-title">
+                    <span>Nigga</span>
+                    <span class="status">online</span>
+                </div>
+                <div class="header-icons">
+                    <span>&#128222;</span>
+                    <span>&#128214;</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="chat-box">
+        </div>
+
+        <div class="message-input">
+            <div class="input-container">
+                <button class="emoji-btn">&#128512;</button>
+                <input type="text" id="message" placeholder="Message..." />
+                <button class="send-btn" id="send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
